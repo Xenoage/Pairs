@@ -1,0 +1,76 @@
+body {
+	background-color: black;
+	background-image: url('img/desktop.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container {
+   position: absolute;
+   top: 50%;
+   margin-top: -360px; /* half of #content height */
+   left: 0;
+   width: 100%;
+}
+
+#content {
+   width: 880px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 720px;
+}
+
+td {
+	width: 220px;
+	height: 180px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.card {
+	margin: auto;
+	background-image: url('img/card-back.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 180px;
+	width: 180px;
+	text-align: center;
+}
+
+.glow {
+	-webkit-box-shadow: 0 0 35px 35px rgba(255,200,100,255);
+	box-shadow: 0 0 35px 35px rgba(255,200,100,255);
+	background-color: rgba(255,200,100,255);
+}
+
+.rotateM5 {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.rotateM2 {
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+
+.rotate2 {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.rotate5 {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
